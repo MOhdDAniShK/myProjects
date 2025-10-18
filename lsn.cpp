@@ -11,8 +11,9 @@ int main(){
     {
         // Taking User Input.
 
-        cout<<"Select:\n--> 0 FOR Stone\n--> 1 FOR Paper\n--> 2 FOR Scissor\nWhat's your choice: "<<endl;
+        cout<<"Select:\n--> 0 FOR Stone\n--> 1 FOR Paper\n--> 2 FOR Scissor\nWhat's your choice: ";
         cin>>inp;
+        cout<<endl;
 
         //Checking For the validity of the Input.
 
